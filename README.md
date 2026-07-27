@@ -6,20 +6,19 @@
 [![React Native](https://img.shields.io/badge/React_Native-0.74-blue)]()
 [![License](https://img.shields.io/badge/license-MIT-green)]()
 
----
+---# 📖 Sobre o Projeto
 
-## 📋 Sobre o Projeto
+O **Guaxinema** é um aplicativo mobile desenvolvido em **React Native** utilizando **Expo**, inspirado em plataformas como **Rotten Tomatoes** e **Letterboxd**. O nome é uma brincadeira entre **guaxinim** (raccoon) e **cinema**. 🦝🎬
 
-O **Guaxinema** é um aplicativo mobile desenvolvido em **React Native** com **Expo** para avaliação de filmes, inspirado no estilo do **Rotten Tomatoes** e do **Letterboxd**. O nome é uma brincadeira com a palavra "guaxinim" (raccoon) + "cinema" 🦝🎬.
+O aplicativo permite pesquisar filmes, visualizar informações, criar listas personalizadas, registrar avaliações e organizar o histórico do usuário de forma simples e intuitiva.
 
-O app permite que os usuários:
-- Pesquisem filmes e vejam informações detalhadas.
-- Avaliem filmes com notas e críticas.
-- Criem listas personalizadas (assistidos, favoritos, quero assistir).
-- Visualizem estatísticas e recomendações.
+O projeto foi desenvolvido durante a disciplina de **Desenvolvimento de Aplicações Web** do **Instituto Federal de Santa Catarina (IFSC) – Câmpus Chapecó**, utilizando o ambiente **Expo Snack**, permitindo o desenvolvimento e testes diretamente no navegador durante as aulas.
 
-O projeto foi desenvolvido como parte da disciplina de **Desenvolvimento de Aplicações Web** no **IFSC - Câmpus Chapecó**, aplicando conceitos de **React Native**, **Expo**, **Navegação**, **Consumo de APIs** e **Armazenamento Local**.
+> **⚠️ Aviso**
+>
+> Este projeto possui caráter **acadêmico** e foi desenvolvido em um ambiente online (Expo Snack) durante as aulas da disciplina. Por esse motivo, algumas funcionalidades podem estar incompletas ou apresentar inconsistências, sendo o código disponibilizado principalmente para demonstrar a aplicação de conceitos de **React Native**, **Expo**, **componentização**, **navegação**, **gerenciamento de estado** e **desenvolvimento mobile**.
 
+O projeto serviu como prática dos principais recursos do ecossistema React Native, explorando a construção de interfaces, navegação entre telas e organização de aplicações móveis.
 ---
 
 ## 🚀 Funcionalidades Principais
