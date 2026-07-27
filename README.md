@@ -6,7 +6,7 @@
 [![React Native](https://img.shields.io/badge/React_Native-0.74-blue)]()
 [![License](https://img.shields.io/badge/license-MIT-green)]()
 
----# 📖 Sobre o Projeto
+# 📖 Sobre o Projeto
 
 O **Guaxinema** é um aplicativo mobile desenvolvido em **React Native** utilizando **Expo**, inspirado em plataformas como **Rotten Tomatoes** e **Letterboxd**. O nome é uma brincadeira entre **guaxinim** (raccoon) e **cinema**. 🦝🎬
 
