@@ -1,90 +1,213 @@
-# 🦝 Guaxinema - App de Avaliação de Filmes
+# 🦝 Guaxinema — App de Avaliação de Filmes
 
-[![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)]()
-[![IFSC](https://img.shields.io/badge/IFSC-Chapec%C3%B3-blue)]()
-[![Expo](https://img.shields.io/badge/Expo-51.x-black)]()
-[![React Native](https://img.shields.io/badge/React_Native-0.74-blue)]()
-[![License](https://img.shields.io/badge/license-MIT-green)]()
+<p align="center">
+
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
+![Expo](https://img.shields.io/badge/Expo-51.x-black)
+![React Native](https://img.shields.io/badge/React_Native-0.74-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+</p>
+
+---
 
 # 📖 Sobre o Projeto
 
-O **Guaxinema** é um aplicativo mobile desenvolvido em **React Native** utilizando **Expo**, inspirado em plataformas como **Rotten Tomatoes** e **Letterboxd**. O nome é uma brincadeira entre **guaxinim** (raccoon) e **cinema**. 🦝🎬
+O **Guaxinema** é um aplicativo mobile desenvolvido em **React Native** utilizando **Expo**, inspirado em plataformas como **Letterboxd** e **Rotten Tomatoes**. O nome é uma brincadeira entre **guaxinim** (raccoon) e **cinema**. 🦝🎬
 
-O aplicativo permite pesquisar filmes, visualizar informações, criar listas personalizadas, registrar avaliações e organizar o histórico do usuário de forma simples e intuitiva.
+O aplicativo permite pesquisar filmes, visualizar informações, registrar avaliações e organizar listas personalizadas de maneira simples e intuitiva.
 
-O projeto foi desenvolvido durante a disciplina de **Desenvolvimento de Aplicações Web** do **Instituto Federal de Santa Catarina (IFSC) – Câmpus Chapecó**, utilizando o ambiente **Expo Snack**, permitindo o desenvolvimento e testes diretamente no navegador durante as aulas.
+O projeto foi desenvolvido durante a disciplina de **Desenvolvimento de Aplicações Web** do **Instituto Federal de Santa Catarina (IFSC) – Câmpus Chapecó**, utilizando o ambiente **Expo Snack**, permitindo o desenvolvimento e testes diretamente pelo navegador durante as aulas.
 
 > **⚠️ Aviso**
 >
-> Este projeto possui caráter **acadêmico** e foi desenvolvido em um ambiente online (Expo Snack) durante as aulas da disciplina. Por esse motivo, algumas funcionalidades podem estar incompletas ou apresentar inconsistências, sendo o código disponibilizado principalmente para demonstrar a aplicação de conceitos de **React Native**, **Expo**, **componentização**, **navegação**, **gerenciamento de estado** e **desenvolvimento mobile**.
-
-O projeto serviu como prática dos principais recursos do ecossistema React Native, explorando a construção de interfaces, navegação entre telas e organização de aplicações móveis.
----
-
-## 🚀 Funcionalidades Principais
-
-### 🎬 Catálogo de Filmes
-- Listagem de filmes em alta, lançamentos e por gênero.
-- Busca por nome ou ator.
-- Página de detalhes com sinopse, elenco, duração e ano.
-
-### ⭐ Avaliações
-- Sistema de notas (0 a 5 estrelas).
-- Críticas escritas pelo usuário.
-- Média de avaliações da comunidade.
-
-### 📋 Listas Personalizadas
-- Filmes assistidos.
-- Favoritos.
-- Quero assistir (watchlist).
-- Criação de listas customizadas (ex: "Melhores de 2024").
-
-### 👤 Perfil do Usuário
-- Cadastro e login (com autenticação).
-- Histórico de avaliações.
-- Estatísticas: total de filmes avaliados, média geral, etc.
-
-### 🖥️ Administração (opcional)
-- Painel administrativo para gerenciar filmes, categorias e usuários.
+> Este projeto possui caráter **acadêmico** e foi desenvolvido originalmente utilizando o **Expo Snack**. Como consequência, algumas funcionalidades podem estar incompletas ou apresentar inconsistências quando executadas fora do ambiente original.
+>
+> O objetivo principal deste projeto é demonstrar a aplicação de conceitos de **React Native**, **Expo**, **componentização**, **navegação entre telas**, **consumo de APIs** e **desenvolvimento mobile**.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+# 🌐 Demonstração
 
-### Front-end (Mobile)
-- **React Native 0.74+**
-- **Expo 51.x**
-- **Expo Router** (navegação baseada em arquivos)
-- **React Native Paper** / **NativeBase** (componentes UI)
-- **Axios** (consumo de API)
+O aplicativo pode ser executado diretamente pelo **Expo Snack**:
 
-### Back-end / API (dados dos filmes)
-- **API externa:** [The Movie Database (TMDB)](https://www.themoviedb.org/) ou similar.
-- **Armazenamento local:** AsyncStorage / SQLite (para histórico offline).
-- **Backend próprio (opcional):** Laravel API para gerenciamento de usuários e avaliações.
+**https://snack.expo.dev/@ravemuon/guaxinema-up**
 
-### Ferramentas
-- **Expo Go** (teste rápido no celular)
-- **VS Code** (editor)
-- **Git & GitHub** (controle de versão)
-- **Snack Expo** (ambiente de desenvolvimento online)
+Também é possível abrir o projeto utilizando o aplicativo **Expo Go** através do QR Code disponibilizado pelo Snack.
 
 ---
 
-## 📥 Como Executar o Projeto Localmente
+# 🚀 Funcionalidades
+
+## 🎬 Filmes
+
+- Catálogo de filmes
+- Busca por título
+- Página de detalhes
+- Informações do filme
+
+---
+
+## ⭐ Avaliações
+
+- Sistema de notas
+- Avaliações dos usuários
+- Organização das avaliações
+
+---
+
+## 📋 Listas
+
+- Filmes favoritos
+- Filmes assistidos
+- Lista "Quero assistir"
+- Listas personalizadas
+
+---
+
+## 👤 Usuário
+
+- Cadastro
+- Login
+- Perfil
+- Histórico de avaliações
+
+---
+
+## 🛠️ Recursos Técnicos
+
+- Navegação entre telas
+- Componentização
+- Consumo de APIs
+- Armazenamento local
+- Interface responsiva
+
+---
+
+# 🛠️ Tecnologias Utilizadas
+
+## Mobile
+
+- React Native
+- Expo
+- JavaScript
+- Expo Router
+- React Navigation
+
+## Recursos
+
+- Expo Snack
+- Expo Go
+- AsyncStorage
+- Axios
+
+## Ferramentas
+
+- Visual Studio Code
+- Git
+- GitHub
+
+---
+
+# 🚀 Como Executar
+
+## Opção 1 — Expo Snack (Recomendado)
+
+Acesse:
+
+**https://snack.expo.dev/@ravemuon/guaxinema-up**
+
+O projeto pode ser executado:
+
+- Pelo navegador;
+- Pelo aplicativo **Expo Go**;
+- Escaneando o QR Code disponível na página.
+
+---
+
+## Opção 2 — Executar Localmente
 
 ### Pré-requisitos
 
-| Ferramenta | Finalidade |
-| :--- | :--- |
-| **Node.js** | Ambiente de execução JavaScript |
-| **Expo CLI** | `npm install -g expo-cli` |
-| **Expo Go** | Aplicativo no celular para testar |
-| **VS Code** | Editor de código |
+- Node.js
+- NPM
+- Expo CLI
+- Expo Go
+- Git
 
-### Passo a Passo
+---
 
-#### 1️⃣ Clone o repositório
+### Clone o projeto
+
 ```bash
 git clone https://github.com/Ravemuon/guaxinema-app.git
+```
+
+```bash
 cd guaxinema-app
+```
+
+---
+
+### Instale as dependências
+
+```bash
+npm install
+```
+
+---
+
+### Execute o projeto
+
+```bash
+npx expo start
+```
+
+ou
+
+```bash
+expo start
+```
+
+Abra o aplicativo **Expo Go** e escaneie o QR Code.
+
+---
+
+# 📱 Compatibilidade
+
+- Android
+- iOS
+- Web (Expo Snack)
+
+---
+
+# 🎓 Disciplina
+
+Projeto desenvolvido para a disciplina de **Desenvolvimento de Aplicações Web**.
+
+**Instituto Federal de Santa Catarina (IFSC)**
+
+**Câmpus Chapecó**
+
+---
+
+# 👨‍💻 Desenvolvedor
+
+**Emilly Marteninghe Fortes (Ravemuon)**
+
+GitHub:
+
+https://github.com/Ravemuon
+
+---
+
+# 📄 Licença
+
+Este projeto está licenciado sob a licença **MIT**.
+
+---
+
+## ⭐ Gostou do projeto?
+
+Se este projeto foi útil ou interessante, considere deixar uma **⭐** no repositório.
